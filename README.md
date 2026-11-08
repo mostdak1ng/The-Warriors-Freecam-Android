@@ -6,11 +6,12 @@ runs **inside the emulated PlayStation 2**, so it needs no companion program, no
 memory access from outside the emulator, and no root.
 
 That is what makes it work on Android. The desktop
-[The Warriors Freecam](https://github.com/mostdak1ng/The-Warriors-Freecam) drives
-the game from a Windows program over PCSX2's PINE socket; Android sandboxes every
-app away from every other app's memory, so that approach cannot be ported. This
-one is a text file the emulator applies by itself, and it behaves identically on
-desktop PCSX2 and on Android PS2 emulators that read `.pnach` cheats.
+[The Warriors MapTriggers](https://github.com/mostdak1ng/The-Warriors-MapTriggers)
+(formerly The Warriors Freecam) drives the game from a Windows program over
+PCSX2's PINE socket; Android sandboxes every app away from every other app's
+memory, so that approach cannot be ported. This one is a text file the emulator
+applies by itself, and it behaves identically on desktop PCSX2 and on Android
+PS2 emulators that read `.pnach` cheats.
 
 `The Warriors Freecam v0.2.0 - mostdak1ng` is written into the emulated machine's
 memory at a fixed address, where a memory search will find it. There is no
